@@ -1,0 +1,1 @@
+ALTER TABLE `processedShiftData` ADD `base_tariff_price` text DEFAULT '0' NOT NULL;

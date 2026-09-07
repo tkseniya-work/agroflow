@@ -1,0 +1,1 @@
+ALTER TABLE `techniqueStandard` ADD `has_monitoring` integer;

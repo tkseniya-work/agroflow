@@ -1,0 +1,125 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1755034620704,
+      "tag": "0000_employees",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1756188401284,
+      "tag": "0001_dictionaries",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1756707667487,
+      "tag": "0002_time",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1759314341413,
+      "tag": "0003_unitOfMeasure",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1761828914007,
+      "tag": "0004_productionShifts",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1761989988440,
+      "tag": "0005_openProductionShifts",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1768815859468,
+      "tag": "0006_companies",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1770807991299,
+      "tag": "0007_ProductionPlan2",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1772185009042,
+      "tag": "0008_techniqueStandardsMonitoring",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "6",
+      "when": 1772631061131,
+      "tag": "0009_productionShiftPart",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "6",
+      "when": 1779182930696,
+      "tag": "0010_processedShiftData",
+      "breakpoints": true
+    },
+    {
+      "idx": 11,
+      "version": "6",
+      "when": 1779437363298,
+      "tag": "0011_tariffList",
+      "breakpoints": true
+    },
+    {
+      "idx": 12,
+      "version": "6",
+      "when": 1781092425992,
+      "tag": "0012_add_base_tariff_price",
+      "breakpoints": true
+    },
+    {
+      "idx": 13,
+      "version": "6",
+      "when": 1782826800000,
+      "tag": "0013_openProductionShift_segment_meta",
+      "breakpoints": true
+    },
+    {
+      "idx": 14,
+      "version": "6",
+      "when": 1782913200000,
+      "tag": "0014_openProductionShift_sync_state",
+      "breakpoints": true
+    },
+    {
+      "idx": 15,
+      "version": "6",
+      "when": 1783776000000,
+      "tag": "0015_dictionary_unique_indexes",
+      "breakpoints": true
+    },
+    {
+      "idx": 16,
+      "version": "6",
+      "when": 1785325204133,
+      "tag": "0016_add_shift_break_settings",
+      "breakpoints": true
+    }
+  ]
+}

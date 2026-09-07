@@ -1,0 +1,166 @@
+import { StyleSheet } from "react-native";
+
+import Colors from "../../../../shared/styles/Colors";
+
+export const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: "#F6F8FA",
+  },
+  header: {
+    paddingTop: 16,
+    paddingHorizontal: 16,
+    paddingBottom: 14,
+    backgroundColor: Colors.white,
+    flexDirection: "row",
+    alignItems: "center",
+    gap: 12,
+  },
+  iconButton: {
+    width: 38,
+    height: 38,
+    borderRadius: 19,
+    backgroundColor: "#F2F4F7",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  titleWrap: {
+    flex: 1,
+    minWidth: 0,
+  },
+  title: {
+    fontSize: 18,
+    fontWeight: "800",
+    color: "#101828",
+  },
+  subtitle: {
+    marginTop: 2,
+    fontSize: 12,
+    color: "#667085",
+  },
+  content: {
+    padding: 16,
+  },
+  generateTariffButton: {
+    minHeight: 42,
+    marginTop: -4,
+    marginBottom: 10,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: "#ABEFC6",
+    backgroundColor: "#F6FEF9",
+    paddingHorizontal: 12,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    gap: 7,
+  },
+  generateTariffButtonDisabled: {
+    borderColor: "#EAECF0",
+    backgroundColor: "#F9FAFB",
+  },
+  generateTariffButtonText: {
+    fontSize: 13,
+    fontWeight: "800",
+    color: Colors.greenColor,
+  },
+  generateTariffButtonTextDisabled: {
+    color: "#98A2B3",
+  },
+  paramsCard: {
+    borderRadius: 18,
+    backgroundColor: Colors.white,
+    borderWidth: 1,
+    borderColor: "#EAECF0",
+    padding: 14,
+    marginTop: 4,
+  },
+  warningBox: {
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: "#FEDF89",
+    backgroundColor: "#FFFAEB",
+    padding: 12,
+    marginBottom: 10,
+    flexDirection: "row",
+    alignItems: "flex-start",
+    gap: 8,
+  },
+  warningText: {
+    fontSize: 12,
+    lineHeight: 17,
+    color: "#B54708",
+  },
+  warningTextWrap: {
+    flex: 1,
+    minWidth: 0,
+  },
+  warningMeta: {
+    marginTop: 4,
+    fontSize: 11,
+    lineHeight: 15,
+    color: "#93370D",
+  },
+  paramsTitle: {
+    fontSize: 15,
+    fontWeight: "800",
+    color: "#101828",
+    marginBottom: 12,
+  },
+  inputBox: {
+    borderRadius: 12,
+    backgroundColor: "#F7F8FA",
+    paddingHorizontal: 12,
+    paddingVertical: 8,
+    marginBottom: 10,
+    borderWidth: 1,
+    borderColor: "#ECECEC",
+  },
+  inputLabel: {
+    fontSize: 11,
+    color: Colors.grey500,
+    marginBottom: 2,
+  },
+  textInput: {
+    minHeight: 30,
+    paddingVertical: 0,
+    fontSize: 14,
+    fontWeight: "600",
+    color: Colors.grey800,
+  },
+  footer: {
+    marginTop: 14,
+    flexDirection: "row",
+    gap: 10,
+  },
+  cancelButton: {
+    flex: 1,
+    height: 48,
+    borderRadius: 14,
+    borderWidth: 1,
+    borderColor: "#D0D5DD",
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  cancelButtonText: {
+    fontSize: 15,
+    fontWeight: "800",
+    color: "#344054",
+  },
+  submitButton: {
+    flex: 1,
+    height: 48,
+    borderRadius: 14,
+    backgroundColor: Colors.greenColor,
+    alignItems: "center",
+    justifyContent: "center",
+  },
+  submitButtonDisabled: {
+    opacity: 0.7,
+  },
+  submitButtonText: {
+    fontSize: 15,
+    fontWeight: "800",
+    color: Colors.white,
+  },
+});
